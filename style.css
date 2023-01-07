@@ -1,0 +1,59 @@
+.customBody {
+    height: 400px;
+    width: 400px;
+    overflow: auto;
+}
+
+.customPara {
+    border-bottom: 1px solid navy;
+}
+
+.customInp {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid slategray;
+    line-height: 28px;
+    padding-left: 2px;
+}
+
+.customBtn {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 3px;
+    border-bottom: 1px solid slategray;
+}
+
+.customBtn:hover {
+    background-color: slategray;
+    color: white;
+}
+
+li {
+    margin-top: 10px;
+    list-style-type: none;
+    border-left: 10px solid navy;
+    padding-left: 10px;
+}
+
+.styleLi {
+    font-size: 1.25em;
+    margin: 10px 230px 0 0px;
+    padding-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid navy;
+}
+
+.styleBtn {
+    margin: 0 0 0 10px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.styleBtn:hover {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
